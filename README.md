@@ -5,6 +5,6 @@ We can think of a fiber as a solution space to a discrete optimization problem. 
 
 We consider all combinatorial optimization problems that can be specified using an underlying graph $G = (V,E,W)$ with a set of edges $E$, set of vertices $V$ and set of weights $W$. Each edge has an associated unique positive weight $w_e\in W$ and we assume we have access to all such weights. For such a setup, we define the vertex-edge incidence matrix $M$ as the constraint matrix. Furthermore, we define a cost vector $C$ to be a vector of edge weights $w_e\in E$ ordered lexicographically. Thus, 
 \begin{align*}
-    C = (w_{01},w_{02},\dots,w_{N-1N})^T,~\ |V| = N
+    C = (w_{01},w_{02},...,w_{N-1N})^T,~\ |V| = N
 \end{align*}
 and so for any integer vector observation $x\in \mathcal{F}_{M}(b)$, the cost of such observation is simply the sum of its weights, computed as $C(x) = C^Tx$.
