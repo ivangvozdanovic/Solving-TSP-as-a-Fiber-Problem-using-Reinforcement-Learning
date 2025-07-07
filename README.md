@@ -7,4 +7,4 @@ We consider all combinatorial optimization problems that can be specified using 
 \begin{align*}
     C = (w_{01},w_{02},\dots,w_{N-1N})^T,~\ |V| = N
 \end{align*}
-and so for any integer vector observation $x\in \mathcal{F}{M}(b)$, the cost of such observation is simply the sum of its weights, computed as $C(x) = C^Tx$.
+and so for any integer vector observation $x\in \mathcal{F}_{M}(b)$, the cost of such observation is simply the sum of its weights, computed as $C(x) = C^Tx$.
